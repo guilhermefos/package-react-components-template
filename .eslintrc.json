@@ -6,10 +6,10 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:storybook/recommended"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -21,6 +21,6 @@
     ],
     "rules": {
         "@typescript-eslint/no-empty-interface": "warn",
-        "react/no-unescaped-entities":"warn"
+        "react/no-unescaped-entities": "warn"
     }
 }
